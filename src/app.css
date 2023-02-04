@@ -182,8 +182,8 @@
 }
 
 .background-1 {
-  height: 973px;
-  left: -311px;
+  height: 82%;
+  left: -370px;
   object-fit: cover;
   position: absolute;
   top: 311px;
@@ -378,21 +378,17 @@ rgb(237, 28, 36) 100%);
 .footer {
   align-items: flex-start;
   background-color: var(--general-color2);
-  border: 1px solid;
-  border-color: 
-transparent;
   border-image: radial-gradient(
 rgb(255, 155, 0) 12.5%, 
 rgb(237, 28, 36)) 1;
   display: flex;
   flex-direction: row;
-  height: 506px;
   justify-content: flex-start;
   left: 0;
   mix-blend-mode: normal;
   padding: 72px 37px;
   position: absolute;
-  top: 1212px;
+  top: 1223px;
   width: 1600px;
 }
 
@@ -688,6 +684,10 @@ rgb(237, 28, 36)) 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.wt-text {
+  color: #fff;
 }
 
 .tips-on-choosing-a-university {

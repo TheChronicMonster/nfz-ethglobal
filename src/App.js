@@ -72,7 +72,7 @@ function LessonPage(props) {
                   <img className="line-8" src="line-8-1.svg" alt="Line 8" />
                   <img className="line-9-1" src="line-9-1.svg" alt="Line 9" />
                   <img className="line-4" src="line-4-1.svg" alt="Line 4" />
-                  <img className="background-1" src={background1} alt="Background 1" />
+                  <img className="background-1" src={require('./img/star-bkgrnd-2.png')} alt="Background 1" />
                 </div>
               </div>
             </div>
@@ -84,11 +84,11 @@ function LessonPage(props) {
                 <img className="group" src={group1} alt="Group" />
                 <img className="group-1" src={group2} alt="Group" />
                 <img className="group-2" src={group3} alt="Group" />
-                <img className="rectangle-2659" src="img/coins.png" alt="Rectangle 2659" />
+                <img className="rectangle-2659" src={require('./img/coins.png')} alt="Rectangle 2659" />
               </div>
             </div>
             <div className="navbar">
-              <div className="navbar-1spacegrotesk-normal-white-16px">
+              <div className="navbar-1spacegrotesk-normal-white-16px, wt-text">
                 <div className="frame-1000001">
                   <div className="our-programsvalign-text-middle">
                     {ourPrograms}
@@ -133,7 +133,7 @@ function LessonPage(props) {
                       yourNfts={pages1Props.yourNfts}
                       blog={pages1Props.blog}
                     />
-                    <div className="company">
+                    <div className="company, wt-text">
                       <div className="infospacegrotesk-medium-white-21px">
                         {info}
                       </div>
@@ -158,7 +158,7 @@ function LessonPage(props) {
                     />
                   </div>
                 </div>
-                <img className="logo-2" src={logo2} alt="Logo 2" />
+                <img className="logo-2" src={require('./img/nft-logo.png')} alt="Logo 2/nft-logo.png" />
               </div>
             </footer>
             <PopularArticelSidebar
@@ -238,7 +238,7 @@ function Pages(props) {
   const { nfz, place, aboutUs, yourNfts, blog } = props;
 
   return (
-    <div className="nav-menu-item">
+    <div className="nav-menu-item, wt-text">
       <div className="nfzspacegrotesk-medium-white-21px">
         {nfz}
       </div>
@@ -268,8 +268,8 @@ function PopularArticelSidebar(props) {
       <div className="popular-articlevalign-text-middle">
         {popularArticle}
       </div>
-      <Article img={article1Props.img} />
-      <Article img={article2Props.img} className={article2Props.className} />
+      <Article img={require('./img/needle-tower.png')} />
+      <Article img={require('./img/red-door.png')} className={article2Props.className} />
       <Article2 />
     </div>
   );
@@ -332,7 +332,7 @@ const popularArticelSidebarData = {
 
 const lessonPageData = {
   line91: "line-9.png",
-  background1: "background-1.png",
+  background1: "star-bkgrnd-2.png",
   group1: "group.png",
   group2: "group-1.png",
   group3: "group-2.png",
@@ -353,7 +353,7 @@ const lessonPageData = {
   termsConditions: "Terms Conditions",
   privacyPolicy: "Privacy Policy",
   cookies: "Cookies",
-  logo2: "logo-2.png",
+  logo2: "img/nft-logo.png",
   agencyProvidesAFu: "Agency provides a full service range including technical skills, design, business understanding.",
   outsourceYourDigit:
     "Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.",
