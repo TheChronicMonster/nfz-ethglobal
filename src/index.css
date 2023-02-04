@@ -1,0 +1,79 @@
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --general-color2: 
+rgba(6, 9, 25, 1);
+  --greygrey-1: 
+rgba(62, 65, 80, 1);
+  --general-color3: 
+rgba(255, 255, 255, 1);
+
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 21px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 32px;
+  --font-size-xxxxl: 36px;
+  --font-size-xxxxxl: 64px;
+
+  --font-family-space_grotesk: "Space Grotesk";
+}
+
+
+
+.spacegrotesk-normal-bright-gray-16px {
+  color: var(--greygrey-1);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.spacegrotesk-bold-blue-charcoal-24px {
+  color: var(--general-color2);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  font-style: normal;
+}
+.spacegrotesk-normal-blue-charcoal-21px {
+  color: var(--general-color2);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-style: normal;
+}
+.spacegrotesk-bold-blue-charcoal-32px {
+  color: var(--general-color2);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  font-style: normal;
+}
+.spacegrotesk-normal-blue-charcoal-16px {
+  color: var(--general-color2);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.spacegrotesk-normal-white-18px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.spacegrotesk-medium-white-21px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-style: normal;
+}
+.spacegrotesk-normal-white-16px {
+  color: var(--general-color3);
+  font-family: var(--font-family-space_grotesk);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
