@@ -277,11 +277,12 @@
   background-color: var(--general-color2);
   display: flex;
   gap: 43px;
-  left: 191px;
-  padding: 40px 152px;
+  left: 193px;
+  padding: 40px 10px;
   position: absolute;
-  top: 34px;
-  width: 1600px;
+  top: 84px;
+  width: 100%;
+  float: left;
 }
 
 .navbar-1 {
