@@ -412,7 +412,7 @@ rgb(237, 28, 36)) 1;
 
 .logo {
   height: 32px;
-  min-width: 288px;
+  /* min-width: 288px; */
 }
 
 .nav-menu {

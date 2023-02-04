@@ -124,7 +124,10 @@ function LessonPage(props) {
             <footer className="footer">
               <div className="overlap-group-1">
                 <div className="nav">
-                  <img className="logo" src="logo.svg" alt="Logo" />
+                  <img className="logo" src={require('./img/fb-logo-rnd.png')} alt="Logo" />
+                  <img className="logo" src={require('./img/twitter-logo-rnd.png')} alt="Logo" />
+                  <img className="logo" src={require('./img/yt-logo-rnd.png')} alt="Logo" />
+                  <img className="logo" src={require('./img/li-logo-rnd.png')} alt="Logo" />
                   <div className="nav-menu">
                     <Pages
                       nfz={pages1Props.nfz}
