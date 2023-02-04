@@ -84,7 +84,7 @@ function LessonPage(props) {
                 <img className="group" src={group1} alt="Group" />
                 <img className="group-1" src={group2} alt="Group" />
                 <img className="group-2" src={group3} alt="Group" />
-                <img className="rectangle-2659" src="rectangle-2659.svg" alt="Rectangle 2659" />
+                <img className="rectangle-2659" src="img/coins.png" alt="Rectangle 2659" />
               </div>
             </div>
             <div className="navbar">
@@ -316,11 +316,11 @@ const pages2Data = {
 };
 
 const article1Data = {
-  img: "rectangle-2481.png",
+  img: "img/needle-tower.png",
 };
 
 const article2Data = {
-  img: "rectangle-2481-1.png",
+  img: "img/red-door.png",
   className: "article",
 };
 
