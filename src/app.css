@@ -45,7 +45,7 @@
 }
 
 .overlap-group3 {
-  height: 1116px;
+  /* height: 1116px; */
   left: -192px;
   position: absolute;
   top: -29px;
@@ -53,11 +53,11 @@
 }
 
 .group-container {
-  height: 1116px;
+  /* height: 1116px; */
   left: 0;
   position: absolute;
   top: 0;
-  width: 1985px;
+  /* width: 1985px; */
 }
 
 .group-36458 {
@@ -108,7 +108,7 @@
 .overlap-group {
   height: 1595px;
   position: relative;
-  width: 973px;
+  width: 100%;
 }
 
 .line-3 {
@@ -195,12 +195,12 @@
   align-items: flex-end;
   border-radius: 16px;
   display: flex;
-  height: 470px;
+  /*height: 470px;*/
   left: 344px;
   overflow: hidden;
   position: absolute;
   top: 452px;
-  width: 1296px;
+  width: 100%;
 }
 
 .overlap-group2 {
@@ -277,12 +277,13 @@
   background-color: var(--general-color2);
   display: flex;
   gap: 43px;
-  left: 193px;
+  /* left: 193px; */
   padding: 40px 10px;
   position: absolute;
-  top: 84px;
-  width: 100%;
+  /* top: 84px; */
+  max-width: 100%;
   float: left;
+  z-index: 1;
 }
 
 .navbar-1 {
@@ -363,17 +364,17 @@ rgb(237, 28, 36) 100%);
 }
 
 .overlap-group5 {
-  height: 1718px;
+  /*height: 1718px;*/
   position: relative;
-  width: 1600px;
+  width: 100%;
 }
 
 .overlap-group4 {
-  height: 1718px;
+  /*height: 1718px;*/
   left: 0;
   position: absolute;
   top: 0;
-  width: 1600px;
+  width: 100%;
 }
 
 .footer {
@@ -387,16 +388,16 @@ rgb(237, 28, 36)) 1;
   justify-content: flex-start;
   left: 0;
   mix-blend-mode: normal;
-  padding: 72px 37px;
+  padding: 72px 0;
   position: absolute;
   top: 1223px;
-  width: 1600px;
+  width: 100%;
 }
 
 .overlap-group-1 {
   height: 360px;
   position: relative;
-  width: 1443px;
+  width: 100%;
 }
 
 .nav {

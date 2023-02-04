@@ -48,70 +48,70 @@ function LessonPage(props) {
 
   return (
     <div className="container-center-horizontal">
+      <div className="navbar">
+        <div className="navbar-1spacegrotesk-normal-white-16px, wt-text">
+          <div className="frame-1000001">
+            <div className="our-programsvalign-text-middle">
+              {ourPrograms}
+            </div>
+            {/* <img className="path" src="path.svg" alt="Path" /> */}
+          </div>
+          <div className="navbar-link-awardsvalign-text-middle">
+            {navbarLinkAwards}
+          </div>
+          <div className="navbar-link-about-usvalign-text-middle">
+            {navbarLinkAboutUs}
+          </div>
+          <div className="navbar-link-articlevalign-text-middle">
+            {navbarLinkArticle}
+          </div>
+          <div className="navbar-link-contact-usvalign-text-middle">
+            {navbarLinkContactUs}
+          </div>
+        </div>
+        <div className="button">
+          <div className="wallet-0x093jdj2003029valign-text-middle">
+            {wallet0X093Jdj2003029}
+          </div>
+        </div>
+      </div>
       <div className="lesson-pagescreen">
         <div className="hero-article-detail">
           <div className="overlap-group3">
             <div className="group-container">
               <div className="group-36458">
                 <div className="line-container">
-                  <img className="line" src="line-4.svg" alt="Line 4" />
+                  {/* <img className="line" src="line-4.svg" alt="Line 4" />
                   <img className="line" src="line-3.svg" alt="Line 3" />
                   <img className="line" src="line-5.svg" alt="Line 5" />
                   <img className="line" src="line-6.svg" alt="Line 6" />
                   <img className="line" src="line-3.svg" alt="Line 7" />
-                  <img className="line" src="line-5.svg" alt="Line 8" />
+                  <img className="line" src="line-5.svg" alt="Line 8" /> */}
                 </div>
                 <img className="line-9" src={line91} alt="Line 9" />
               </div>
               <div className="group-36459">
                 <div className="overlap-group">
-                  <img className="line-3" src="line-3-1.svg" alt="Line 3" />
+                  {/* <img className="line-3" src="line-3-1.svg" alt="Line 3" />
                   <img className="line-5" src="line-5-1.svg" alt="Line 5" />
                   <img className="line-6" src="line-6-1.svg" alt="Line 6" />
                   <img className="line-7" src="line-7-1.svg" alt="Line 7" />
                   <img className="line-8" src="line-8-1.svg" alt="Line 8" />
                   <img className="line-9-1" src="line-9-1.svg" alt="Line 9" />
-                  <img className="line-4" src="line-4-1.svg" alt="Line 4" />
+                  <img className="line-4" src="line-4-1.svg" alt="Line 4" /> */}
                   <img className="background-1" src={require('./img/star-bkgrnd-2.png')} alt="Background 1" />
                 </div>
               </div>
             </div>
             <div className="img">
               <div className="overlap-group2">
-                <div className="rectangle-10"></div>
+                {/* <div className="rectangle-10"></div>
                 <div className="rectangle-11"></div>
                 <div className="rectangle-12"></div>
                 <img className="group" src={group1} alt="Group" />
                 <img className="group-1" src={group2} alt="Group" />
-                <img className="group-2" src={group3} alt="Group" />
+                <img className="group-2" src={group3} alt="Group" /> */}
                 <img className="rectangle-2659" src={require('./img/coins.png')} alt="Rectangle 2659" />
-              </div>
-            </div>
-            <div className="navbar">
-              <div className="navbar-1spacegrotesk-normal-white-16px, wt-text">
-                <div className="frame-1000001">
-                  <div className="our-programsvalign-text-middle">
-                    {ourPrograms}
-                  </div>
-                  <img className="path" src="path.svg" alt="Path" />
-                </div>
-                <div className="navbar-link-awardsvalign-text-middle">
-                  {navbarLinkAwards}
-                </div>
-                <div className="navbar-link-about-usvalign-text-middle">
-                  {navbarLinkAboutUs}
-                </div>
-                <div className="navbar-link-articlevalign-text-middle">
-                  {navbarLinkArticle}
-                </div>
-                <div className="navbar-link-contact-usvalign-text-middle">
-                  {navbarLinkContactUs}
-                </div>
-              </div>
-              <div className="button">
-                <div className="wallet-0x093jdj2003029valign-text-middle">
-                  {wallet0X093Jdj2003029}
-                </div>
               </div>
             </div>
           </div>
@@ -222,7 +222,7 @@ function LessonPage(props) {
               {agencyIsABusiness}
             </p>
             <div className="frame-1000001879">
-              <img className="shape" src="shape.svg" alt="Shape" />
+              {/* <img className="shape" src="shape.svg" alt="Shape" /> */}
               <p className="provide-your-businesspacegrotesk-normal-blue-charcoal-21px">
                 {provideYourBusines}
               </p>
